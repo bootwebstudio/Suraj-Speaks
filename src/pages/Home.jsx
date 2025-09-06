@@ -464,9 +464,9 @@ const Home = () => {
         <div className="w-full md:w-1/2 xl:w-[20%] h-full rounded">
           <img src={EbookCover} alt="" className="w-full h-full object-cover" />
         </div>
-        <button className="w-full md:w-1/2 xl:w-fit p-4 px-6 xl:px-12 text-xl font-semibold space-x-2 rounded text-mainText bg-brand">
+        <a href="./Chapter-1.pdf" download className="w-full md:w-1/2 xl:w-fit p-4 px-6 xl:px-12 text-xl font-semibold text-center space-x-2 rounded text-mainText bg-brand">
           Download Chapter 1 Free
-        </button>
+        </a>
       </div>
       {/* Footer Section */}
       <Footer />
