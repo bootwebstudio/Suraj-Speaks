@@ -193,7 +193,7 @@ const Home = () => {
           </p>
           <Link
             to="/checkout"
-            className="w-full xl:w-fit p-4 px-6 text-xl font-semibold rounded bg-brand"
+            className="w-full xl:w-fit p-4 px-6 text-xl font-semibold text-center rounded bg-brand"
           >
             Get Instant Access for ₹{DISCOUNT_PRICE}
           </Link>
